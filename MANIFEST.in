@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include f_gastos *.css
+recursive-include f_gastos *.csv
+recursive-include f_gastos *.html
+recursive-include f_gastos *.ico
+recursive-include f_gastos *.js
+recursive-include f_gastos *.json
+recursive-include f_gastos *.md
+recursive-include f_gastos *.png
+recursive-include f_gastos *.py
+recursive-include f_gastos *.svg
+recursive-include f_gastos *.txt
+recursive-exclude f_gastos *.pyc
